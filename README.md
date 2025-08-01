@@ -1,6 +1,6 @@
 # Termi-Vate motivational CLI
 
-![Termi-Vate](https://i.imgur.com/IF42R2y.png)
+![Termi-Vate](demo.png)
 
 A fun and powerful command-line utility that delivers a dose of inspiration directly to your terminal. Each time you run the app, it displays a random motivational quote from a customizable list, complete with the current date, time, and a fun emoji.
 
