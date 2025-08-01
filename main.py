@@ -105,10 +105,12 @@ def display_motivation(show_weather=False):
     print(f"{Style.BRIGHT}{Fore.MAGENTA}" + "+" + "-" * 60 + "+")
 
     if pyfiglet:
-        ascii_title = pyfiglet.figlet_format("MOTIVATE", font="slant")
+        # Changed "MOTIVATE" to "Termi-Vate"
+        ascii_title = pyfiglet.figlet_format("Termi-Vate", font="slant")
         print(f"{Fore.GREEN}{ascii_title.strip()}")
     else:
-        print(f"{Fore.GREEN}{'MOTIVATE'.center(60)}")
+        # Changed "MOTIVATE" to "Termi-Vate"
+        print(f"{Fore.GREEN}{'Termi-Vate'.center(60)}")
 
     print(f"{Style.BRIGHT}{Fore.MAGENTA}" + "-" * 62)
     print(f"  {Fore.CYAN}{random_quote.center(58)}  ")
@@ -128,7 +130,7 @@ def display_motivation(show_weather=False):
 # --- Main Execution ---
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
-        description="A command-line tool for a dose of daily motivation."
+        description="Termi-Vate: A command-line tool for a dose of daily motivation."
     )
     parser.add_argument(
         '--add',
