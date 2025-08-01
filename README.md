@@ -1,4 +1,4 @@
-# Termi-Vate motivational CLI
+# Termi-Vate CLI
 
 ![Termi-Vate](demo.png)
 
